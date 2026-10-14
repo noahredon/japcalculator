@@ -5,7 +5,7 @@ const chalk = require('chalk')
 const insideNetlify = insideNetlifyBuildContext()
 const q = faunadb.query
 
-console.log(chalk.cyan('Creating your FaunaDB Database...\n'))
+console.log(chalk.cyan('Creating your FaunaDB Database..\n'))
 
 // 1. Check for required enviroment variables
 if (!process.env.FAUNADB_SECRET) {
